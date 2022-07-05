@@ -1,0 +1,47 @@
+body {
+  font-family: 'Gentium Book Plus', serif;
+  font-style: italic;
+  background-image: url("https://cdn.dribbble.com/users/470545/screenshots/3249842/sunset-on-a-beach.gif");
+  background-size: 100%;
+  color: beige;
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;   /* OR -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.167); */
+  font-size: larger;
+  margin: 0%;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.see-through-card {
+  background-color: rgb(255, 255, 255, 0.3);
+  width: 20em;
+  border-radius: 10px;
+  padding: 1px;
+  margin: 5px;
+  align-self: center;
+  position: absolute;
+  top: 10%;
+}
+
+.congratulations {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  text-align: center;
+}
+
+.congratulations a {
+  text-decoration: none !important;
+  color: beige;
+}
+
+#twoMinutesTimer {
+  text-align: center;
+  padding: 0px 150px;
+  margin: 0px;
+  position: absolute;
+  left: 35%;
+}
