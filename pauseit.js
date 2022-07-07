@@ -51,7 +51,6 @@ function stop() {
   clearTimeout(playingTime);
   n = 121;
   stopAudio();
-  console.log("stop");
   tryAgain.innerHTML = `Try again`
 }
 
