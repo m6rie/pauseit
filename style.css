@@ -3,11 +3,15 @@ body {
   font-style: italic;
   background-image: url("https://cdn.dribbble.com/users/470545/screenshots/3249842/sunset-on-a-beach.gif");
   background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: beige;
   text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;   /* OR -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.167); */
   font-size: larger;
   margin: 0%;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .container {
@@ -23,13 +27,13 @@ body {
   margin: 5px;
   align-self: center;
   position: absolute;
-  top: 10%;
+  top: 2%;
 }
 
 .congratulations {
   position: absolute;
-  top: 40%;
-  left: 45%;
+  top: 30%;
+  left: 46.5%;
   text-align: center;
 }
 
@@ -39,12 +43,11 @@ body {
 }
 
 #twoMinutesTimer {
-  /* text-align: center; */
   padding: 13px 0px;
   margin: 0px;
   /* position: absolute; */
-  /* left: 25%; */
-  background-color: rgb(240, 248, 255, 0.3);
+  left: 25%;
+  /* background-color: rgb(240, 248, 255, 0.3); */
   border-radius: 100%;
   font-size: xx-large;
 }
