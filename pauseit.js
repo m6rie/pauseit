@@ -3,7 +3,7 @@ const congratulations = document.querySelector(".congratulations");
 const tryAgain = document.querySelector(".tryAgain");
 const startButton = document.getElementById("startButton");
 const stopButton = document.getElementById("stopButton");
-const audio = new Audio('../../../Downloads/Beautiful Piano Music - Relaxing Music, Study Music, Stress Relief, Sleep Music (Dior).mp3');
+const audio = new Audio('Beautiful Piano Music - Relaxing Music, Study Music, Stress Relief, Sleep Music (Dior).mp3');
 
 let n = 121;
 let m = (10).toHHMMSS;
